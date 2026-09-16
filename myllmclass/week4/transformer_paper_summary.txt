@@ -1,0 +1,7 @@
+# Attention Is All You Need
+
+## 저자의 문제 인식 및 주장
+저자는 기존의 시퀀스 변환 모델들이 복잡한 순환 신경망(RNN)이나 합성곱 신경망(CNN)에 의존하고 있으며, 이러한 구조가 병렬 처리의 한계를 초래하고 훈련 시간을 증가시킨다는 문제를 인식하고 있다. 이에 따라, 저자들은 전적으로 주의(attention) 메커니즘에 기반한 새로운 네트워크 아키텍처인 Transformer를 제안한다. Transformer는 순환 구조나 합성곱을 사용하지 않고, 입력과 출력 간의 전역 의존성을 모델링할 수 있도록 설계되었다. 실험 결과, Transformer는 기계 번역 작업에서 기존 모델들보다 우수한 성능을 보이며, 훈련 시간도 크게 단축된다. 특히, WMT 2014 영어-독일어 번역 작업에서 28.4 BLEU 점수를 기록하며, 기존의 최고 성능 모델보다 2 BLEU 이상 향상된 결과를 보여준다. 또한, Transformer는 영어-프랑스어 번역 작업에서도 새로운 단일 모델 최첨단 BLEU 점수인 41.8을 달성하였다. 저자들은 Transformer가 다른 작업에도 잘 일반화된다는 것을 보여주며, 영어 구문 분석 작업에서도 성공적으로 적용되었다고 주장한다. 이러한 결과는 주의 메커니즘이 시퀀스 변환 문제를 해결하는 데 있어 매우 효과적임을 입증한다.
+
+## 저자 소개
+저자들은 Google Brain과 Google Research의 연구원들로 구성되어 있으며, 기계 학습 및 자연어 처리 분야에서 활발히 연구하고 있다. Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin 등이 포함되어 있다. 이들은 Transformer 모델의 설계 및 구현에 중요한 역할을 하였으며, 해당 연구는 NIPS 2017에서 발표되었다.

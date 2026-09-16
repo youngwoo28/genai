@@ -1,0 +1,7 @@
+# Attention Is All You Need
+
+## 저자의 문제 인식 및 주장
+저자는 기존의 시퀀스 변환 모델들이 복잡한 순환 신경망(RNN)이나 합성곱 신경망(CNN)에 의존하고 있으며, 이로 인해 훈련 속도와 성능에 한계가 있다고 인식한다. 특히, 이러한 모델들은 입력과 출력 시퀀스의 길이가 길어질수록 병렬화가 어려워지고, 메모리 제약으로 인해 배치 처리에 제한이 따른다. 이에 따라, 저자는 새로운 네트워크 아키텍처인 Transformer를 제안한다. Transformer는 전적으로 주의(attention) 메커니즘에 기반하여 순환 및 합성곱을 완전히 배제함으로써, 더 높은 병렬화 가능성과 훈련 시간을 단축할 수 있다. 실험 결과, Transformer는 WMT 2014 영어-독일어 번역 작업에서 28.4 BLEU 점수를 기록하며 기존의 최고 성능 모델을 초과하는 성과를 보였다. 또한, 영어-프랑스어 번역 작업에서도 41.8 BLEU 점수를 달성하여 새로운 단일 모델의 최첨단 성능을 입증하였다. 저자는 Transformer가 다른 작업에도 잘 일반화될 수 있음을 보여주며, 이 모델이 향후 다양한 입력 및 출력 모달리티에 적용될 수 있는 가능성을 강조한다.
+
+## 저자 소개
+저자 Ashish Vaswani는 Google Brain의 연구원으로, Transformer 모델의 설계 및 구현에 중요한 역할을 했다. Noam Shazeer는 Google Brain의 연구원으로, 스케일된 점곱 주의 및 다중 헤드 주의 개념을 제안했다. Niki Parmar는 Google Research의 연구원으로, 모델 변형의 설계 및 평가를 담당했다. Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin 등도 이 연구에 기여한 다양한 배경을 가진 연구자들이다.
