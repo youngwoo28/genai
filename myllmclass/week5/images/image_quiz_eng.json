@@ -1,0 +1,17 @@
+[
+    {
+        "no": 1,
+        "eng": "Which of the following descriptions of the image is incorrect?\n- (1) The image contains many strawberries.\n- (2) The strawberries are mainly red.\n- (3) The color of the strawberries is green.\n- (4) Some of the strawberries have leaves attached.",
+        "img": "02_strawberry.jpg"
+    },
+    {
+        "no": 2,
+        "eng": "Which of the following descriptions of the image is incorrect?\n- (1) The image shows three tomatoes.\n- (2) The tomatoes are red and have droplets on them.\n- (3) The tomatoes are hanging from a branch.\n- (4) The image includes potatoes.",
+        "img": "01_tomato.jpg"
+    },
+    {
+        "no": 3,
+        "eng": "Which of the following descriptions of the image is incorrect?\n- (1) There are two bowls with soup in them.\n- (2) There are pieces of white cheese on top of the soup.\n- (3) The color of the soup is green.\n- (4) There are pumpkin seeds around the bowls.",
+        "img": "03_soup.jpg"
+    }
+]
